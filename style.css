@@ -43,7 +43,7 @@ nav {
 
 body.index main {
 
-    background-image: url(https://assets.y.co/upload/f_auto,q_70,c_fill,w_2559/v1705630596/cruiseArea/Thailand-Area-Page/apwijjeikogqvc1vdvpn.jpg);
+    background-image: url(/imgs_site/fundo-index.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ main.inicial button:hover {
     background-image:
         linear-gradient(to bottom,
             rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) 100%),
-        url(882011-Mount-Hua-China-Mountains-Hieroglyphics-Clouds.jpg);
+        url(/imgs_site/882011-Mount-Hua-China-Mountains-Hieroglyphics-Clouds.jpg);
     background-size: cover;
     background-position: center;
     height: 83vh;
@@ -215,15 +215,15 @@ main.inicial button:hover {
 /* https://img.freepik.com/premium-photo/still-life-japanese-healthy-green-tea-small-cups-teapot-dark-background_186277-3903.jpg?w=996 */
 
 #card1{
-    background-image: url(/lat70_20160505_231027.jpg);
+    background-image: url(/imgs_site/trilha.jpg);
 }
 
 #card2{
-    background-image: url(https://img.freepik.com/premium-photo/still-life-japanese-healthy-green-tea-small-cups-teapot-dark-background_186277-3909.jpg);
+    background-image: url(/imgs_site/chá.avif);
 }
 
 #card3{
-    background-image: url(https://cdn.openart.ai/stable_diffusion/77a5af03bc2443ff4fc3d11ea5554b41c3e464de_2000x2000.webp);
+    background-image: url(/imgs_site/monge.webp);
 }
 
 .card {
@@ -305,7 +305,7 @@ main.inicial button:hover {
     background-image:
         linear-gradient(to top,
             rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) 100%),
-        url(/hua1603127646920-86ab11c8b0b1.avif);
+        url(/imgs_site/hua1603127646920-86ab11c8b0b1.avif);
     min-height: 700px;
 }
 
@@ -367,10 +367,16 @@ main.inicial button:hover {
     padding-right: 30px;
 }
 
+.imgHua img{
+    border: 1px #fff solid;
+        height: 220px;
+
+}
+
 /*  */
 
 .cardNot2 {
-    background-image: url(https://www.rei.com/blog/wp-content/uploads/2018/07/MGM_032017_001.jpg);
+    background-image: url(/imgs_site/macchu-pichu.jpg);
     background-size: cover;
     box-sizing: border-box;
     width: 330px;
