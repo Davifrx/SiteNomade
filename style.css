@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+}
+
+/* Header */
+body.noticia header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body.noticia main {
+    padding-top: 80px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #011015;
+    /* #061115 */
+    height: 12vh;
+}
+
+body.index main {
+
+    background-image: url(imgs_site/fundo-index.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 88vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+
+}
+
+/* fim header */
+
+/* Interface index - Textos */
+
+
+.inicial .interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.inicial .txt-interface {
+    text-align: left;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 90px;
+    padding-bottom: 70px;
+}
+
+.inicial .txt-interface h1 {
+    text-align: left;
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.inicial .txt-interface h1 span {
+    display: block;
+    font-weight: 800;
+}
+
+.inicial .txt-interface p {
+    font-size: 18px;
+    font-weight: 200;
+    margin: 20px 0
+}
+
+.inicial .txt-interface p span {
+    font-size: 18px;
+    display: block;
+    font-weight: 700;
+}
+
+/* Interface index - Botao */
+
+main.inicial button {
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    height: 44px;
+    width: 44%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+main.inicial button:hover {
+    opacity: 0.7;
+}
+/* Fim Index  */
+
+
+/* Main noticia1 e 2*/
+.escopo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff
+}
+
+.txt-topo {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-size: 40px;
+}
+
+.txt-topo h1 {
+    line-height: 80px;
+    font-weight: 800;
+}
+
+.txt-topo p {
+    font-weight: 200;
+    font-size: 20px;
+    display: flex;    
+}
+
+.paragrafos-topo p {
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 1;
+    justify-content: space-around; 
+    display: flex;
+    max-width: 350px;
+}
+
+.imgBack {
+    margin-top: 1vh;
+    background-image:
+        linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) 100%),
+        url(imgs_site/882011-Mount-Hua-China-Mountains-Hieroglyphics-Clouds.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 83vh;
+}
+
+/* Fundo preto */
+
+.black-container {
+    width: 100%;
+    background-color: #000;
+    min-height: 400px;
+    gap: 30px;
+    padding: 200px 0px;
+
+}
+
+.txtCards h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    top: -100px;
+    text-align: center;
+}
+
+.txtCards p {
+    font-weight: 200;
+    font-size: 17px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: -90px;
+    letter-spacing: 5px;
+    line-height: 20px;
+}
+
+.paragrafos-topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 80%;
+}
+
+/* card */
+#card1{
+    background-image: url(imgs_site/trilha.jpg);
+}
+
+#card2{
+    background-image: url(imgs_site/chá.avif);
+}
+
+#card3{
+    background-image: url(imgs_site/monge.webp);
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 410px;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card svg {
+    width: 48px;
+    fill: #ffffff39;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover {
+    transform: rotate(-5deg) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+}
+
+.card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.card:hover svg {
+    scale: 0;
+    transform: rotate(-45deg);
+}
+
+.cardrow {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 190px;
+}
+
+/* Interact to Noticia2 */
+.escopo2{
+      width: 100%;
+      padding-top: 140px;
+    background-image:
+        linear-gradient(to top,
+            rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) 100%),
+        url(imgs_site/hua1603127646920-86ab11c8b0b1.avif);
+    min-height: 700px;
+}
+
+.container-info h2 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 1;
+}
+
+.style-p {
+    margin-top: 100px;
+}
+
+.container-info p {
+    margin-left: 30px;
+    max-width: 600px;
+    margin-top:40px;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 1;
+}
+
+.container-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.lado-esquerdo {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.lado-esquerdo h2 {
+    margin-bottom: 15px;
+}
+
+
+.lado-direito {
+    flex: 1;
+}
+
+.lado-direito p {
+    margin-left: 50px;
+    margin-top: 250px;
+    margin-right: 1px ;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 1;
+
+}
+
+.imgs {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.imgHua img{
+    border: 1px #fff solid;
+    height: 220px;
+
+}
+
+/*  */
+
+.cardNot2 {
+    background-image: url(imgs_site/macchu-pichu.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    width: 330px;
+    height: 220px;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 1px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a .cardNot2 {
+    text-decoration: none;
+}
+
+.cardNot2:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.cardNot2:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+/* fim */
+
+/* footer */
+body.noticia footer {
+    color: #fff;
+    background-color: #011015;
+    padding: 50px;
+    text-align: center;
+}
