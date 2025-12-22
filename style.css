@@ -43,7 +43,7 @@ nav {
 
 body.index main {
 
-    background-image: url(../imgs_site/fundo-index.webp);
+    background-image: url(./imgs_site/fundo-index.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ main.inicial button:hover {
     background-image:
         linear-gradient(to bottom,
             rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) 100%),
-        url(../imgs_site/882011-Mount-Hua-China-Mountains-Hieroglyphics-Clouds.jpg);
+        url(./imgs_site/882011-Mount-Hua-China-Mountains-Hieroglyphics-Clouds.jpg);
     background-size: cover;
     background-position: center;
     height: 83vh;
@@ -210,15 +210,15 @@ main.inicial button:hover {
 
 /* card */
 #card1{
-    background-image: url(../imgs_site/trilha.jpg);
+    background-image: url(./imgs_site/trilha.jpg);
 }
 
 #card2{
-    background-image: url(../imgs_site/chá.avif);
+    background-image: url(./imgs_site/chá.avif);
 }
 
 #card3{
-    background-image: url(../imgs_site/monge.webp);
+    background-image: url(./imgs_site/monge.webp);
 }
 
 .card {
@@ -297,7 +297,7 @@ main.inicial button:hover {
     background-image:
         linear-gradient(to top,
             rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) 100%),
-        url(../imgs_site/hua1603127646920-86ab11c8b0b1.avif);
+        url(./imgs_site/hua1603127646920-86ab11c8b0b1.avif);
     min-height: 700px;
 }
 
@@ -368,7 +368,7 @@ main.inicial button:hover {
 /*  */
 
 .cardNot2 {
-    background-image: url(../imgs_site/macchu-pichu.jpg);
+    background-image: url(./imgs_site/macchu-pichu.jpg);
     background-size: cover;
     box-sizing: border-box;
     width: 330px;
