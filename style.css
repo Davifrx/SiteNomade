@@ -163,7 +163,7 @@ main.inicial button:hover {
     background-image:
         linear-gradient(to bottom,
             rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) 100%),
-        url(./imgs_site/882011-Mount-Hua-China-Mountains-Hieroglyphics-Clouds.jpg);
+        url(./imgs_site/Mount-Hua-China-Mountains.jpg);
     background-size: cover;
     background-position: center;
     height: 83vh;
@@ -214,7 +214,7 @@ main.inicial button:hover {
 }
 
 #card2{
-    background-image: url(./imgs_site/chá.avif);
+    background-image: url(./imgs_site/cha.avif);
 }
 
 #card3{
@@ -297,7 +297,7 @@ main.inicial button:hover {
     background-image:
         linear-gradient(to top,
             rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) 100%),
-        url(./imgs_site/hua1603127646920-86ab11c8b0b1.avif);
+        url(./imgs_site/escadaria-hua.avif);
     min-height: 700px;
 }
 
