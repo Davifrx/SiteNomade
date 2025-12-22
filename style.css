@@ -410,3 +410,142 @@ body.noticia footer {
     padding: 50px;
     text-align: center;
 }
+
+/* ============================= */
+/* RESPONSIVO – TABLET E MOBILE */
+/* ============================= */
+
+@media (max-width: 1024px) {
+
+    /* Cards */
+    .cardrow {
+        gap: 80px;
+    }
+
+    .txt-topo {
+        left: 50px;
+        top: 200px;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 15px;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+    }
+
+    /* INDEX */
+    .inicial .interface {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .inicial .txt-interface {
+        padding: 0 20px;
+    }
+
+    .inicial .txt-interface h1 {
+        font-size: 2.4em;
+        line-height: 1.2;
+    }
+
+    main.inicial button {
+        width: 100%;
+    }
+
+    /* TOPO NOTÍCIA */
+    .txt-topo {
+        position: relative;
+        top: auto;
+        left: auto;
+        padding: 40px 20px;
+        font-size: 28px;
+    }
+
+    .paragrafos-topo {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        height: auto;
+    }
+
+    /* CARDS */
+    .cardrow {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* NOTÍCIA CONTEÚDO */
+    .container-info {
+        flex-direction: column;
+    }
+
+    .lado-esquerdo,
+    .lado-direito {
+        width: 100%;
+    }
+
+    .lado-direito p {
+        margin: 40px 20px;
+        text-align: center;
+    }
+
+    .imgs {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-right: 0;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* TEXTOS */
+    .txt-topo h1 {
+        font-size: 1.8em;
+        line-height: 1.2;
+    }
+
+    .container-info h2 {
+        font-size: 2.5em;
+    }
+
+    .txtCards h2 {
+        font-size: 28px;
+    }
+
+    .txtCards p {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    /* CARDS */
+    .card {
+        width: 90%;
+        height: 380px;
+    }
+
+    .cardNot2 {
+        width: 90%;
+        height: 200px;
+    }
+}
